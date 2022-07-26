@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../../../Users/MacPro/Documents/GitHub/cousera/goit-js-hw-06"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "src"
+  }
+}
