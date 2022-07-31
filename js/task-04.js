@@ -4,7 +4,7 @@ const counter = {
         this.value +=1
     },
     decrement() {
-        console.log('decrese', this);
+        // console.log('decrese', this);
         this.value -=1
     },
 }   

@@ -16,7 +16,7 @@ const handleSubmit = event => {
     event.preventDefault();
 
     if (Number(email.value) === 0 || Number(password.value) === 0) {
-        alert ("Все поля должны быть заполнены!");
+        return alert ("Все поля должны быть заполнены!");
     }
     result.email = email.value;  
     result.password = password.value

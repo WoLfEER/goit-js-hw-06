@@ -11,9 +11,9 @@ const refs = {
 // 
 
 refs.button.addEventListener('click', () => {
-  // console.log('check');
-  refs.body.style.backgroundColor = getRandomHexColor()
-  refs.span.textContent = getRandomHexColor()
+  const color = getRandomHexColor()
+  refs.body.style.backgroundColor = color
+  refs.span.textContent = color
 })
 
 
